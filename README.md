@@ -10,8 +10,18 @@ $ git init # создали репозиторий
 ```
 ## Проверить состояние репозитория 
 код ниже
+
 `git status`
 
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
 
 
 текст под чертой  
